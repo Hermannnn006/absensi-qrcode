@@ -28,15 +28,37 @@ Screenshot:<br>
 ![dashboard mahasiswa](https://github.com/Hermannnn006/absensi-qrcode/assets/92978253/da88f9ba-460f-4522-b93a-50a39e390a37)
 5. Halaman Qrcode Scanner Untuk Absensi (hanya dapat diakses oleh admin)
 ![qrcode scanner](https://github.com/Hermannnn006/absensi-qrcode/assets/92978253/f42adcf6-0117-47ae-8e97-0f1f2fe3bc91)
-6. Halaman Data Absensi (hanya dapat diakses admin)
+6. Halaman Data Absensi (hanya dapat diakses admin)<br>
+    <ul>
+        <li>pada halaman ini admin dapat menampilkan data absensi berdasarkan tanggal, pencarian, dan filter kelas.</li>
+        <li>export data absensi ke dalam bentuk file excel</li>
+    </ul>
+
 ![data absensi](https://github.com/Hermannnn006/absensi-qrcode/assets/92978253/1a5cece7-d053-4375-bd68-fdd23424960a)
-7. Halaman Data Mahasiswa (hanya dapat diakses admin)
+8. Halaman Data Mahasiswa (hanya dapat diakses admin)
+    <ul>
+        <li>pada halaman ini admin dapat melakukan pencarian data mahasiswa, menambah, mengedit, dan menghapus data mahasiswa</li>
+    </ul>
+
 ![data mahasiswa](https://github.com/Hermannnn006/absensi-qrcode/assets/92978253/827b5f89-6ef0-469e-903d-ee23bd3e3a11)
-8. Halaman Data kelas (hanya dapat diakses admin)
+9. Halaman Data kelas (hanya dapat diakses admin)
+<ul>
+    <li>pada halaman ini admin dapat melakukan pencarian data kelas, menambah, mengedit, dan menghapus data kelas</li>
+</ul>
+
 ![data kelas](https://github.com/Hermannnn006/absensi-qrcode/assets/92978253/6da2440f-fe0e-4274-b000-1abf5762f829)
-9. Halaman Profil Admin
+10. Halaman Profil Admin
+<ul>
+    <li>pada halaman ini admin dapat mengedit data profil</li>
+</ul>
+
 ![profil admin](https://github.com/Hermannnn006/absensi-qrcode/assets/92978253/fb565340-ff34-48ce-b1c1-5d1173e38fff)
-10. Halaman Profil Mahasiswa
+11. Halaman Profil Mahasiswa
+<ul>
+    <li>pada halaman ini mahasiswa dapat mengedit data profil</li>
+    <li>mencetak kartu absensi</li>
+</ul>
+
 ![profil mahasiswa](https://github.com/Hermannnn006/absensi-qrcode/assets/92978253/a68a50d4-f4c5-49be-a27d-71f2975f35b6)
 
 
