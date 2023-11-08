@@ -15,7 +15,13 @@ dibuat menggunakan :
     <li>axios</li>
     <li>DBMS mysql</li>
     <li>tailwind css</li>
-</ol>
+</ol><br>
 Screenshot:
+<ol>
+    <li>
+        Halaman Login<br>
+        ![login](https://github.com/Hermannnn006/absensi-qrcode/assets/92978253/fd5c517f-e008-4a9a-9417-86fb51737514)
 
+    </li>
+</ol>
 
