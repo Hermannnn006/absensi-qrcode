@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Classroom;
 use App\Models\Mahasiswa;
 use Illuminate\Http\Request;
 use Illuminate\Database\Eloquent\Builder;
@@ -17,7 +18,9 @@ class DashboardController extends Controller
                 $query->where('created_at', 'LIKE','%'.date('Y-m-d', time()).'%');
                 })->doesntExist();
         //$check akan bernilai true jika data tidak ada
-
-        return view('dashboard.index', compact('check'));
+        
+        $jumlahMahasiswa = Mahasiswa::count();
+        $jumlahKelas = Classroom::count();
+        return view('dashboard.index', compact('check', 'jumlahMahasiswa', 'jumlahKelas'));
     }
 }

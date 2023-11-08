@@ -24,7 +24,7 @@ class Presence extends Model
     public function scopeFilter($query, array $filters)
     {
         $query->when($filters['tanggal'] ?? false, fn($query, $tanggal) => 
-            $query->where('presences.created_at', 'like', '%' . $tanggal . '%')
+            $query->where('created_at', 'like', '%' . $tanggal . '%')
         );  
     }
 }
