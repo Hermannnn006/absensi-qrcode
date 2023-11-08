@@ -15,6 +15,7 @@ class ProfilController extends Controller
 {
     public function index()
     {
+        // dd(User::with('roles')->get());
         $mahasiswa = Mahasiswa::with(['user', 'classroom'])->where('user_id', auth()->user()->id)->get();
         return view('profil.index', compact('mahasiswa'));
     }
@@ -60,7 +61,8 @@ class ProfilController extends Controller
 
     public function generateIdCard()
     {
-        $mahasiswa = Mahasiswa::with(['user', 'classroom'])->where('user_id', auth()->user()->id)->get();
+        $mahasiswa = Mahasiswa::with(['user', 'classroom'])
+            ->where('user_id', auth()->user()->id)->get();
         $qrCode = QrCode::size(150)
             ->margin(1)
             ->generate($mahasiswa[0]->nim, public_path('img/' . $mahasiswa[0]->nim . '.svg'));
